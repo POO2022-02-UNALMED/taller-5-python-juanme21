@@ -4,7 +4,7 @@ class Anfibio:
     salamandras = 0
 
     def __init__(self, n, e, hab, g, col, ven):
-        super.__init__(n, e, hab, g)
+        super().__init__(n, e, hab, g)
         self.colorPiel = col
         self.venenoso = ven
         Anfibio.listado.append(self)

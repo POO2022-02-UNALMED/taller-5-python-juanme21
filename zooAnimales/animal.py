@@ -41,3 +41,6 @@ class Animal:
             self.nombre, self.edad, self.habitat, self.genero
         )
         return stri
+
+    def getNombre(self):
+        return self.nombre

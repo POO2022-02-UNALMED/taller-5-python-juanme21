@@ -4,7 +4,7 @@ class Pez:
     bacalaos = 0
 
     def __init__(self, n, e, hab, g, col, can):
-        super.__init__(n, e, hab, g)
+        super().__init__(n, e, hab, g)
         self.colorEscamas = col
         self.cantidadAletas = can
         Pez.listado.append(self)

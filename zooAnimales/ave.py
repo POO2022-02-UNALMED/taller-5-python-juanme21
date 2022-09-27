@@ -4,7 +4,7 @@ class Ave:
     aguilas = 0
 
     def __init__(self, n, e, hab, g, col):
-        super.__init__(n, e, hab, g)
+        super().__init__(n, e, hab, g)
         self.colorPlumas = col
         Ave.listado.append(self)
 

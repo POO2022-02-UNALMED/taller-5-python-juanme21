@@ -4,7 +4,7 @@ class Mamifero:
     leones = 0
 
     def __init__(self, n, e, hab, g, pel, pat):
-        super.__init__(n, e, hab, g)
+        super().__init__(n, e, hab, g)
         self.pelaje = pel
         self.pat = pat
         Mamifero.listado.append(self)

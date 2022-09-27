@@ -4,10 +4,13 @@ class Reptil:
     serpientes = 0
 
     def __init__(self, n, e, hab, g, col, lar):
-        super.__init__(n, e, hab, g)
+        super().__init__(n, e, hab, g)
         self.colorEscamas = col
         self.largoCola = lar
         Reptil.listado.append(self)
+
+    def movimiento():
+        return "reptar"
 
     def cantidadReptiles(self):
         return len(Reptil.listado)

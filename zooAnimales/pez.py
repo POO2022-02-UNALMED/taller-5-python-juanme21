@@ -1,4 +1,4 @@
-class Pez:
+class Pez(Animal):
     listado = []
     salmones = 0
     bacalaos = 0

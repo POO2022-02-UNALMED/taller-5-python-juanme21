@@ -1,4 +1,4 @@
-class Anfibio:
+class Anfibio(Animal):
     listado = []
     ranas = 0
     salamandras = 0

@@ -1,4 +1,4 @@
-class Reptil:
+class Reptil(Animal):
     listado = []
     iguanas = 0
     serpientes = 0

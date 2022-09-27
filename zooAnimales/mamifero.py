@@ -1,4 +1,4 @@
-class Mamifero:
+class Mamifero(Animal):
     listado = []
     caballos = 0
     leones = 0

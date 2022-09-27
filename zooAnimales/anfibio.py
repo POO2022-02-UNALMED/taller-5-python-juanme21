@@ -16,7 +16,7 @@ class Anfibio(Animal):
         return "saltar"
 
     @classmethod
-    def cantidadAnfibio(self):
+    def cantidadAnfibios(self):
         return len(Anfibio.listado)
 
     @classmethod

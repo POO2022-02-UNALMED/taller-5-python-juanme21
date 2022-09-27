@@ -15,9 +15,11 @@ class Reptil(Animal):
     def movimiento():
         return "reptar"
 
+    @classmethod
     def cantidadReptiles(self):
         return len(Reptil.listado)
 
+    @classmethod
     def crearIguana(
         self,
         n,
@@ -28,6 +30,7 @@ class Reptil(Animal):
         Reptil.iguanas += 1
         return nuevo
 
+    @classmethod
     def crearSerpiente(
         self,
         n,

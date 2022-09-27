@@ -12,9 +12,11 @@ class Mamifero(Animal):
         self.pat = pat
         Mamifero.listado.append(self)
 
+    @classmethod
     def cantidadMamiferos(self):
         return len(Mamifero.listado)
 
+    @classmethod
     def crearCaballo(
         self,
         n,
@@ -25,6 +27,7 @@ class Mamifero(Animal):
         Mamifero.caballos += 1
         return nuevo
 
+    @classmethod
     def crearLeon(
         self,
         n,

@@ -15,9 +15,11 @@ class Anfibio(Animal):
     def movimiento():
         return "saltar"
 
+    @classmethod
     def cantidadAnfibio(self):
         return len(Anfibio.listado)
 
+    @classmethod
     def crearRana(
         self,
         n,
@@ -28,6 +30,7 @@ class Anfibio(Animal):
         Anfibio.ranas += 1
         return nuevo
 
+    @classmethod
     def crearSalamandra(
         self,
         n,

@@ -15,9 +15,11 @@ class Pez(Animal):
     def movimiento():
         return "nadar"
 
+    @classmethod
     def cantidadPeces(self):
         return len(Pez.listado)
 
+    @classmethod
     def crearSalmon(
         self,
         n,
@@ -28,6 +30,7 @@ class Pez(Animal):
         Pez.salmones += 1
         return nuevo
 
+    @classmethod
     def crearSerpiente(
         self,
         n,

@@ -20,19 +20,19 @@ class Animal:
         from zooAnimales.anfibio import Anfibio
 
         stri = (
-            "Mamiferos: "
+            "Mamiferos : "
             + str(Mamifero.cantidadMamiferos())
             + "\n"
-            + "Aves: "
+            + "Aves : "
             + str(Ave.cantidadAves())
             + "\n"
-            + "Reptiles: "
+            + "Reptiles : "
             + str(Reptil.cantidadReptiles())
             + "\n"
-            + "Peces: "
+            + "Peces : "
             + str(Pez.cantidadPeces())
             + "\n"
-            + "Anfibios: "
+            + "Anfibios : "
             + str(Anfibio.cantidadAnfibios())
         )
         return stri

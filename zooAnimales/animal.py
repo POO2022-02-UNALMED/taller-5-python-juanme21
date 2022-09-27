@@ -19,23 +19,23 @@ class Animal:
         from zooAnimales.reptil import Reptil
         from zooAnimales.anfibio import Anfibio
 
-        str = (
+        stri = (
             "Mamiferos: "
-            + Mamifero.cantidadMamiferos()
+            + str(Mamifero.cantidadMamiferos())
             + "\n"
             + "Aves: "
-            + Ave.cantidadAves()
+            + str(Ave.cantidadAves())
             + "\n"
             + "Reptiles: "
-            + Reptil.cantidadReptiles()
+            + str(Reptil.cantidadReptiles())
             + "\n"
             + "Peces: "
-            + Pez.cantidadPeces()
+            + str(Pez.cantidadPeces())
             + "\n"
             + "Anfibios: "
-            + Anfibio.cantidadAnfibios()
+            + str(Anfibio.cantidadAnfibios())
         )
-        return str
+        return stri
 
     def toString(self) -> str:
         stri = "Mi nombre es {}, tengo una edad de {}, habito en {} y mi genero es {}".format(

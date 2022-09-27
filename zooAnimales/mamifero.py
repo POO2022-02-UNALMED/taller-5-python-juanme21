@@ -38,7 +38,7 @@ class Mamifero(Animal):
         Mamifero.leones += 1
         return nuevo
 
-    def getPelaje(self):
+    def isPelaje(self):
         return self.pelaje
 
     def getPatas(self):

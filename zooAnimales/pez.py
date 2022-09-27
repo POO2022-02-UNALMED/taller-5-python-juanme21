@@ -31,7 +31,7 @@ class Pez(Animal):
         return nuevo
 
     @classmethod
-    def crearSerpiente(
+    def crearBacalao(
         self,
         n,
         e,

@@ -9,7 +9,7 @@ class Mamifero(Animal):
     def __init__(self, n, e, hab, g, pel, pat):
         super().__init__(n, e, hab, g)
         self.pelaje = pel
-        self.pat = pat
+        self.patas = pat
         Mamifero.listado.append(self)
 
     @classmethod
@@ -37,3 +37,9 @@ class Mamifero(Animal):
         nuevo = Mamifero(n, e, "selva", g, True, 4)
         Mamifero.leones += 1
         return nuevo
+
+    def getPelaje(self):
+        return self.pelaje
+
+    def getPatas(self):
+        return self.patas

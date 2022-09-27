@@ -39,3 +39,6 @@ class Ave(Animal):
         nuevo = Ave(n, e, "montanas", g, "blanco y amarillo")
         Ave.aguilas += 1
         return nuevo
+
+    def getColorPlumas(self):
+        return self.colorPlumas

@@ -1,3 +1,4 @@
+from typing_extensions import Self
 from zooAnimales.animal import Animal
 
 
@@ -8,8 +9,8 @@ class Reptil(Animal):
 
     def __init__(self, n, e, hab, g, col, lar):
         super().__init__(n, e, hab, g)
-        self.colorEscamas = col
-        self.largoCola = lar
+        self.colorescamas = col
+        self.largocola = lar
         Reptil.listado.append(self)
 
     def movimiento():
@@ -40,3 +41,9 @@ class Reptil(Animal):
         nuevo = Reptil(n, e, "jungla", g, "blanco", 1)
         Reptil.serpientes += 1
         return nuevo
+
+    def getColorEscamas(self):
+        return self.colorescamas
+
+    def getLargoCola(self):
+        return self.largocola

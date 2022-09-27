@@ -5,7 +5,7 @@ class Animal:
         self.nombre = nombre
         self.edad = edad
         self.habitat = habitat
-        self.genera = genero
+        self.genero = genero
 
     def movimiento():
         return "desplazarse"
@@ -45,3 +45,12 @@ class Animal:
 
     def getNombre(self):
         return self.nombre
+
+    def getEdad(self):
+        return self.edad
+
+    def getHabitat(self):
+        return self.habitat
+
+    def getGenero(self):
+        return self.genero

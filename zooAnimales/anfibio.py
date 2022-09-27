@@ -40,3 +40,9 @@ class Anfibio(Animal):
         nuevo = Anfibio(n, e, "selva", g, "negro y amarillo", False)
         Anfibio.salamandras += 1
         return nuevo
+
+    def getColorPiel(self):
+        return self.colorPiel
+
+    def getVenenoso(self):
+        return self.venenoso
